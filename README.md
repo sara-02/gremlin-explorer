@@ -10,7 +10,7 @@ Copy the file to some folder and change as per your requirments
 cp src/main/resources/dynamodb.properties dynamodb.properties.prod
 ```
 
-You man need to change following keys in `dynamodb.properties.prod` file
+You may need to change following keys in `dynamodb.properties.prod` file
 
 ```
 storage.dynamodb.client.credentials.class-name=com.amazonaws.auth.BasicAWSCredentials
